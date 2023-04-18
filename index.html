@@ -8,120 +8,99 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav id="nav-menu">
-        <ul>
-          <li><a href="#home" class="nav-link home">Home</a></li>
-          <li><a href="#about" class="nav-link about">About</a></li>
-          <li><a href="#skills" class="nav-link skills">Skills</a></li>
-          <li><a href="#projects" class="nav-link projects">Projects</a></li>
-          <li><a href="#contact" class="nav-link contact">Contact</a></li>
-          <li><a href="#" class="nav-link resume" id="resume-link-1">Resume</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a class="nav-link home" href="#home">Home</a></li>
+        <li><a class="nav-link about" href="#about">About</a></li>
+        <li><a class="nav-link skills" href="#skills">Skills</a></li>
+        <li><a class="nav-link projects" href="#projects">Projects</a></li>
+        <li><a class="nav-link contact" href="#contact">Contact</a></li>
+        <li><a class="nav-link resume" href="#" id="resume-link-1">Resume</a></li>
+      </ul>
+    </nav>
     
-      <section id="home">
-        <img src="path/to/professional/photo.jpg" alt="My Photo" class="home-img">
-        <h1 id="user-detail-name">Your Name</h1>
-        <p id="user-detail-intro">Formal introduction</p>
-        <a href="#" class="btn" id="resume-button-2">View Resume</a>
-      </section>
+    <!-- Home section -->
+    <section id="home">
+      <div id="user-details">
+        <h1 id="user-detail-name">John Doe</h1>
+        <p id="user-detail-intro">I am a student pursuing Computer Science.</p>
+        <a href="#" download>
+          <img src="path/to/professional/photo.jpg" alt="Professional Photo" class="home-img">
+        </a>
+      </div>
+    </section>
     
-      <section id="about" class="about section">
-        <h2>About Me</h2>
-        <p>Some information about yourself</p>
-        <a href="#" class="btn" id="resume-button-2">Download Resume as PDF</a>
-      </section>
+    <!-- About section -->
+    <section id="about" class="about section">
+      <h2>About Me</h2>
+      <p>I am a student currently pursuing a Bachelor's degree in Computer Science. I have a strong passion for coding and learning new technologies.</p>
+    </section>
     
-      <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-card">
-          <img src="path/to/skill/image.jpg" alt="Skill Image" class="skills-card-img">
-          <h3 class="skills-card-name">Skill Name</h3>
-        </div>
-        <div class="skills-card">
-          <img src="path/to/skill/image.jpg" alt="Skill Image" class="skills-card-img">
-          <h3 class="skills-card-name">Skill Name</h3>
-        </div>
-      </section>
-    
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-          <img src="path/to/project/image.jpg" alt="Project Image">
-          <h3 class="project-title">Project Title</h3>
-          <p class="project-description">Project description</p>
-          <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
-          <a href="https://github.com/username/project" class="project-github-link">GitHub Repository</a>
-          <a href="#" class="project-deployed-link">Deployed Link or Video Link</a>
-        </div>
-        <div class="project-card">
-          <img src="path/to/project/image.jpg" alt="Project Image">
-          <h3 class="project-title">Project Title</h3>
-          <p class="project-description">Project description</p>
-          <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
-          <a href="https://github.com/username/project" class="project-github-link">GitHub Repository</a>
-          <a href="#" class="project-deployed-link">Deployed Link or Video Link</a>
-        </div>
-      </section>
-      <section id="contact" class="contact section">
-        <div class="container">
-          <div class="section-title">
-            <h2>Contact</h2>
-            <p>Feel free to get in touch with me.</p>
+    <!-- Skills section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-card">
+        <img src="path/to/skills-img-1.jpg" alt="Skill 1" class="skills-card-img">
+        <h3 class="skills-card-name">Programming Languages</h3>
+      </div>
+      <div class="skills-card">
+        <img src="path/to/skills-img-2.jpg" alt="Skill 2" class="skills-card-img">
+        <h3 class="skills-card-name">Web Development</h3>
+      </div>
+      <div class="skills-card">
+        <img src="path/to/skills-img-3.jpg" alt="Skill 3" class="skills-card-img">
+        <h3 class="skills-card-name">Database Management</h3>
+      </div>
+      <div class="skills-card">
+        <img src="path/to/skills-img-4.jpg" alt="Skill 4" class="skills-card-img">
+        <h3 class="skills-card-name">Data Structures and Algorithms</h3>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <p>Description of project 1.</p>
+          <p>Tools used: Tool 1, Tool 2, Tool 3</p>
+          <a href="#">Link to project 1</a>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>Description of project 2.</p>
+          <p>Tools used: Tool 1, Tool 4, Tool 5</p>
+          <a href="#">Link to project 2</a>
+        </li>
+        <li>
+          <h3>Project 3</h3>
+          <p>Description of project 3.</p>
+          <p>Tools used: Tool 2, Tool 5, Tool 6</p>
+          <a href="#">Link to project 3</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
-      
-          <div class="row">
-            <div class="col-md-6">
-              <div class="contact-info">
-                <h3>Get in Touch</h3>
-                <p>If you have any questions, just fill out the form below and I'll get back to you as soon as possible.</p>
-      
-                <form action="#" method="post" role="form" class="php-email-form">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center">
-                    <button type="submit">Send Message</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="contact-info">
-                <h3>Contact Information</h3>
-                <div class="contact-item">
-                  <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                  <h4>Location</h4>
-                  <p>123 Street, City, Country</p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon"><i class="bi bi-envelope"></i></div>
-                  <h4>Email</h4>
-                  <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon"><i class="bi bi-phone"></i></div>
-                  <h4>Call</h4>
-                  <p><a href="tel:+1234567890">+1234567890</a></p>
-                </div>
-              </div>
-            </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
-        </div>
-      </section>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+  
 </body>
 </html>
