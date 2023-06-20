@@ -64,6 +64,9 @@ function transform_hamburger(){
 document.getElementById("resume-button-1").onclick = () => {
     window.open("https://drive.google.com/file/d/1Rx3cuPvV2w_WY0wdG6UgzUyxHBjWqNFm/view?usp=share_link");
 }
+document.getElementById("resume-button-2").onclick = () => {
+    window.open("https://drive.google.com/file/d/1Rx3cuPvV2w_WY0wdG6UgzUyxHBjWqNFm/view?usp=share_link");
+}
 
 // document.getElementById("resume-button-2").onclick = () => {
 //     location.assign("https://drive.google.com/file/d/1Q8h7n7NZzntb8nKXSRGrFnjtI7HxaKXs/view?usp=share_link");
