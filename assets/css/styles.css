@@ -15,9 +15,23 @@
     --text: #8892b0;
     --text-light: #a8b2d1;
     --text-lighter: #ccd6f6;
-    /*--body-color: hsl(var(--hue-color), 60%, 99%);*/
+    /* --body-color: hsl(var(--hue-color), 60%, 99%); */
     --body-color: #ECF2FF;
     --card-color: #E5D1FA;
+
+    /* --header-height: 4rem;
+    --first-color: #ff00ff;  Red color 
+    --first-color-alt: hsl(295, 92%, 40%);
+    --grey-light : #757575;
+    --grey-light-alt: #2c2c2c9a;
+    --grey-dark: #2c2c2cea;
+    --grey-dark-alt: #080808ea;
+
+    --text: #b088ae;
+    --text-light: #d0a8d1;
+    --text-lighter: #f6ccf0;
+    --body-color: #ffecff;
+    --card-color: #fad1f8; */
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     ;

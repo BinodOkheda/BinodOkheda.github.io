@@ -100,6 +100,7 @@
 
 #nav-link {
     color: var(--first-color);
+    font-size: 17px;
 }
 
 .nav_container {
